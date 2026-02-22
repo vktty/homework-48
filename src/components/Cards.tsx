@@ -12,12 +12,12 @@ export const Cards = () => {
                         <CardComponent
                             title="Attend Nischal’s Birthday Party"
                             content="Buy gifts on the way and pick up cake from the bakery. (6 PM | Fresh Elements)"
-                            img="../../images/party.png"
+                            img="../images/party.png"
                         />
                         <CardComponent
                             title="Landing Page Design for TravelDays"
                             content="Get the work done by EOD and discuss with client before leaving. (4 PM | Meeting Room)"
-                            img="../../images/design.png"
+                            img="../images/design.png"
                         />
                     </Card>
                 </Col>
@@ -35,13 +35,13 @@ export const Cards = () => {
                                 <CardComponent
                                     title="Walk the dog"
                                     content="Take the dog to the park and bring treats as well."
-                                    img="../../images/dog.png"
+                                    img="../images/dog.png"
                                 />
 
                                 <CardComponent
                                     title="Conduct meeting"
                                     content="Meet with the client and finalize requirements."
-                                    img="../../images/meeting.png"
+                                    img="../images/meeting.png"
                                 />
                             </Card>
                         </Col>
