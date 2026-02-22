@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+}
+
+.myMenu .ant-menu-item span,
+.myMenu .ant-menu-item .ant-menu-item-icon {
+  color: #ffd8bf;
+}
+
+.css-var-root.ant-menu-css-var  {
+  --ant-menu-horizontal-item-selected-color: #fa541c;
+}
+
+@media (max-width: 768px) {
+  .myMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fa541c;
+  }
+
+  .myMenu .ant-menu-item {
+    text-align: center;
+  }
+}
