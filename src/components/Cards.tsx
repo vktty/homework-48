@@ -1,6 +1,10 @@
 import { Card, Col, Row } from "antd";
 import { CardComponent } from "./CardComponent";
 import { ProgressBar } from "./ProgressBar";
+import partyImg from '../../images/party.png'
+import designImg from '../../images/design.png'
+import dogImg from '../../images/dog.png'
+import meetingImg from '../../images/meeting.png'
 
 
 export const Cards = () => {
@@ -12,12 +16,12 @@ export const Cards = () => {
                         <CardComponent
                             title="Attend Nischal’s Birthday Party"
                             content="Buy gifts on the way and pick up cake from the bakery. (6 PM | Fresh Elements)"
-                            img="../images/party.png"
+                            img={partyImg}
                         />
                         <CardComponent
                             title="Landing Page Design for TravelDays"
                             content="Get the work done by EOD and discuss with client before leaving. (4 PM | Meeting Room)"
-                            img="../images/design.png"
+                            img={designImg}
                         />
                     </Card>
                 </Col>
@@ -35,13 +39,13 @@ export const Cards = () => {
                                 <CardComponent
                                     title="Walk the dog"
                                     content="Take the dog to the park and bring treats as well."
-                                    img="../images/dog.png"
+                                    img={dogImg}
                                 />
 
                                 <CardComponent
                                     title="Conduct meeting"
                                     content="Meet with the client and finalize requirements."
-                                    img="../images/meeting.png"
+                                    img={meetingImg}
                                 />
                             </Card>
                         </Col>
